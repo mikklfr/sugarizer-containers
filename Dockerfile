@@ -9,4 +9,5 @@ WORKDIR /opt/sugarizer-server
 RUN npm install
 
 EXPOSE 8080
+EXPOSE 8039
 CMD [ "npm", "run", "start" ]
